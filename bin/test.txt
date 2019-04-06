@@ -1,0 +1,61 @@
+File System Start.
+client_name + file name + command: client1 file2 open
+client_name + file name + command: server1 said: I do not have your file, sorry, bye.
+server3 said: I do not have your file, sorry, bye.
+server2 said: file2opened
+client2 file2 open
+client_name + file name + command: server1 said: I do not have your file, sorry, bye.
+server3 said: I do not have your file, sorry, bye.
+server2 said: cannot open opened file
+client2 file1 open
+client_name + file name + command: server1 said: file1opened
+server2 said: I do not have your file, sorry, bye.
+server3 said: I do not have your file, sorry, bye.
+client1 file2 read
+client_name + file name + command: server1 said: I do not have your file, sorry, bye.
+server3 said: I do not have your file, sorry, bye.
+server2 said: null
+client2 file1 read
+client_name + file name + command: server3 said: I do not have your file, sorry, bye.
+server2 said: I do not have your file, sorry, bye.
+server1 said: hello world
+client3 file1 opend
+client_name + file name + command: server2 said: I do not have your file, sorry, bye.
+server1 said: This is not a legal command, sorry, bye.
+server3 said: I do not have your file, sorry, bye.
+client3 file1 open
+client_name + file name + command: server1 said: cannot open opened file
+server2 said: I do not have your file, sorry, bye.
+server3 said: I do not have your file, sorry, bye.
+client4 file3 open
+client_name + file name + command: server1 said: I do not have your file, sorry, bye.
+server2 said: I do not have your file, sorry, bye.
+server3 said: file3opened
+client5 file3 open
+client_name + file name + command: server1 said: I do not have your file, sorry, bye.
+server2 said: I do not have your file, sorry, bye.
+server3 said: cannot open opened file
+client4 file3 close
+client_name + file name + command: server2 said: I do not have your file, sorry, bye.
+server3 said: file closed now
+server1 said: I do not have your file, sorry, bye.
+client6 file3 open
+client_name + file name + command: server1 said: I do not have your file, sorry, bye.
+server2 said: I do not have your file, sorry, bye.
+server3 said: file3opened
+
+client_name + file name + command: client2 file1 write
+Things you want to write plz: 
+test for 6 clients
+test for 6 clients
+client_name + file name + command: server2 said: I do not have your file, sorry, bye.
+server3 said: I do not have your file, sorry, bye.
+server1 said: wrote to the file.
+client2 file1 read
+client_name + file name + command: server2 said: I do not have your file, sorry, bye.
+server3 said: I do not have your file, sorry, bye.
+server1 said: test for 6 clients
+client2 file1 close
+client_name + file name + command: server1 said: file closed now
+server3 said: I do not have your file, sorry, bye.
+server2 said: I do not have your file, sorry, bye.
